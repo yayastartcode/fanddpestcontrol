@@ -6,6 +6,7 @@ import { ReservationForm } from "@/components/ReservationForm";
 import { FAQSection } from "@/components/FAQSection";
 import { ContactMap } from "@/components/ContactMap";
 import { Footer } from "@/components/Footer";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
       </main>
 
       <Footer />
+
+      {/* Floating WhatsApp Button */}
+      <WhatsAppButton />
     </div>
   );
 }
